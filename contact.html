@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="styles.css" rel="stylesheet">
+        <title>Contact</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Welcome to my CS50 homepage project">
+        <script>
+            function myFunction() {
+            document.getElementById("joke").innerHTML = "You just got bamboozled.";
+            }
+        </script>
+    </head>
+    <body>
+        <header>
+            <nav class="topnav">
+                <ul class="nav nav-pills">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="studies.html">Studies</a></li>
+                    <li><a href="hobbies.html">Hobbies</a></li>
+                    <li class="active"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <h1 id="joke">Contact me.</h1>
+        </header>
+        <main id="contact">
+             <div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+
+    <input type="button" onclick="window.open('https://www.youtube.com/watch_popup?autoplay=1&v=4jNhB3oI6AQ', '_blank'); myFunction()" value="Submit">
+
+  </form>
+</div>
+        </main>
+        <section class="footer">
+            <div>
+            <h5>&copy;Francisco Cajal, 2022</h5>
+            </div>
+            <div class="media">
+            <ul>
+                <li>
+                    <a href="https://facebook.com" target="_blank">
+                        <img src="images/facebook.png" width="32" alt="Facebook Home">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://instagram.com" target="_blank">
+                        <img src="images/instagram.png" width="32" alt="Instagram Home">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://spotify.com" target="_blank">
+                        <img src="images/spotify.png" width="32" alt="Spotify Home">
+                    </a>
+                </li>
+            </ul>
+            </div>
+        </section>
+    </body>
+</html>
