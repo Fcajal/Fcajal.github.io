@@ -98,12 +98,12 @@ body{
 }
 
 #studies .text{
-    font-size: 5vw;
+    font-size: 4vw;
     color: white;
     font-weight: bold;
 }
 #studies .text3{
-    font-size: 2.5vw;
+    font-size: 2vw;
     color: white;
     font-weight: bold;
 }
@@ -133,60 +133,6 @@ body{
     color:white;
     text-align:center;
 }
-#hobbies .column {
-    display: inline-block;
-    width: 33.33%;
-    position: relative;
-    height: 500px;
-    width: 500px;
-}
-
-#hobbies img{
-
-    height: 500px;
-    width: 500px;
-    object-fit: cover;
-}
-
-#hobbies .description{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(29, 106, 154, 0.72);
-    font-size: 32px;
-    color: #fff;
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity .2s, visibility .2s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#hobbies .column:hover .description{
-    visibility: visible;
-    opacity: 1;
-}
-
-#movies{
-    object-position: 55% 0;
-}
-#baloo{
-    object-position: 50% 70%;
-}
-
-#hobbies .row{
-    width:100%;
-}
-
-  /* Clearfix (clear floats) */
-#hobbies .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
 
    /* Style inputs with type="text", select elements and textareas */
 #cambio{
